@@ -1,0 +1,5 @@
+function renderClubs(){
+  const q = searchInput.value.toLowerCase(), cat = categoryFilter.value;
+  const list = state.clubs.filter(c =>
+    c.name.toLowerCase().includes(q) && (cat === "All" || c.category === cat));
+  clubGrid.innerHTML = list.map(c => `<article class="club">...${c.name}...</article>`).join("");
