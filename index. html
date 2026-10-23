@@ -1,0 +1,6 @@
+oot{--brand:#3b5bdb;--line:#e3e7f2}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.club{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px}
+.btn{background:var(--brand);color:#fff;border:0;padding:9px 16px;border-radius:8px}
+.field.invalid input{border-color:#c92a2a}
+JavaScript
